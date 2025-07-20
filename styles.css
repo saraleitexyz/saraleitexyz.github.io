@@ -1,0 +1,53 @@
+/* Estilos personalizados para la fuente Inter */
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Animaciones sutiles para una mejor experiencia de usuario */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-fade-in-delay-1 {
+    animation: fadeIn 0.8s ease-out forwards 0.2s;
+    opacity: 0; /* Asegura que el elemento esté oculto antes de la animación */
+}
+
+.animate-fade-in-delay-2 {
+    animation: fadeIn 0.8s ease-out forwards 0.4s;
+    opacity: 0;
+}
+
+.animate-fade-in-delay-3 {
+    animation: fadeIn 0.8s ease-out forwards 0.6s;
+    opacity: 0;
+}
+
+.animate-fade-in-delay-4 {
+    animation: fadeIn 0.8s ease-out forwards 0.8s;
+    opacity: 0;
+}
+
+/* Puedes añadir más estilos personalizados aquí si lo necesitas */
+/* Por ejemplo, para ajustar el tamaño del contenedor principal en pantallas muy grandes */
+.main-container {
+    max-width: 960px; /* Ajusta este valor si quieres que sea más ancho o más estrecho */
+}
+
+/* Ajustes para el contenedor de la imagen en pantallas pequeñas */
+@media (max-width: 767px) {
+    .profile-image-container {
+        margin-bottom: 2rem; /* Espacio debajo de la imagen en móviles */
+    }
+}
