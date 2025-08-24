@@ -1,0 +1,190 @@
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Inter";
+  font-weight: 300;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 0;
+  transition: filter 0.5s ease;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  margin: 0;
+  margin-right: 2rem;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  color: lightblue;
+  outline: none;
+}
+
+/* Main section: */
+
+main #profile-pic {
+  width: 450px;
+  border-radius: 25px;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+#profile-pic:hover {
+  filter: grayscale(0%);
+}
+
+#index-page {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin: 3rem 5rem;
+}
+
+.big-text {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+#big-text:hover {
+  color: lightblue;
+}
+
+#description {
+  font-size: 2rem;
+}
+
+/* Link section: */
+.side-by-side {
+  border-top: 1px solid #222;
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.side-by-side section {
+  flex: 0 0 45%;
+  max-width: 45%;
+}
+
+.side-by-side h3 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.side-by-side ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-by-side li {
+  margin-bottom: 1.2rem;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.1rem;
+}
+
+.side-by-side a {
+  display: block;
+  padding: 0.8rem;
+  background-color: white;
+  color: black;
+  border-radius: 0.7rem;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.side-by-side a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Personal Blog: */
+.about-media-blog-rec {
+  max-width: 2000px;
+  margin: 0;
+  padding: 0 40px;
+}
+
+/* Footer: */
+
+footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #222;
+}
+
+footer a {
+  color: #777;
+  text-decoration: underline;
+}
+
+footer a:hover,
+footer a:focus {
+  color: lightblue;
+  outline: none;
+}
+
+/* Small screens: */
+@media (max-width: 700px) {
+  nav ul {
+    display: none;
+  }
+
+  #index-page {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .side-by-side {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-by-side section {
+    margin-bottom: 2rem;
+  }
+}
