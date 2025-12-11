@@ -1,4 +1,6 @@
 baseURL = 'https://saraleitexyz.github.io/'
+relativeURLs = false
+canonifyURLs = true
 languageCode = 'en-us'
 title = "saraleitexyz's web"
 theme = "poison"

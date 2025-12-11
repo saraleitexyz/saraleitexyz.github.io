@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on saraleitexyz&#39;s web</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://saraleitexyz.github.io/posts/</link>
     <description>Recent content in Posts on saraleitexyz&#39;s web</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Dec 2025 20:09:09 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://saraleitexyz.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <link>https://saraleitexyz.github.io/posts/hello-world/</link>
       <pubDate>Thu, 11 Dec 2025 20:09:09 +0100</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <guid>https://saraleitexyz.github.io/posts/hello-world/</guid>
       <description>When I first created my personal website, I challenged myself to code everything from scratch to fully understand web design with Figma, HTML, and CSS. I really enjoyed the process, and I remember those summer days when I kept stumbling over how to turn the design I created into HTML and CSS.&#xA;Over time, I realized that my noobish homemade system wasn&amp;rsquo;t very efficient and, around the same time, I kept hearing about Hugo on YouTube (I even watched this helpful video by Luke Smith).</description>
     </item>
   </channel>
