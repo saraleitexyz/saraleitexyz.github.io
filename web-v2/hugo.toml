@@ -1,0 +1,29 @@
+baseURL = 'https://saraleitexyz.github.io/'
+languageCode = 'en-us'
+title = "saraleitexyz's web"
+theme = "poison"
+paginate = 10
+
+[params]
+    brand = "saraleitexyz"
+    brand_image = "/images/saraleitexyz_profile.png"
+    description = "I'm Sara Leite: a web designer and software developer from Málaga, Spain."
+    dark_mode = true
+    favicon = "/favicon.ico"
+
+menu = [
+    {Name = "About", URL = "/about/", HasChildren = false},
+    {Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+]
+
+# Links to socials.
+    email_url = "mailto://saraleite.mail@gmail.com"
+    github_url = "https://github.com/saraleitexyz"
+    linkedin_url = "https://www.linkedin.com/in/saraleitexyz/"
+    tryhackme_url = "https://tryhackme.com/p/saraleitexyz"
+    behance_url = "https://www.behance.net/saraleitexyz"
+    #yhoutube_url = "https://youtube.com"
+
+[taxonomies]
+    series = 'series'
+    tags = 'tags'
